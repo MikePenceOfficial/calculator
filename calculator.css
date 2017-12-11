@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 /* Calculator Box*/
+.body{
+	background-image: url("Unknown.jpeg");
+
+	}
 .box {
 		background-color: #e5e7ea;
 		height: 350px;
