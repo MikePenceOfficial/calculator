@@ -1,6 +1,15 @@
 @charset "UTF-8";
 /* CSS Document */
 /* Calculator Box*/
+
+h1 {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: 100px;
+	text-align: center;
+	font-stretch:expanded;
+	color: purple
+	}
+
 body{
 	background-image: url("rapjesus.png");
 
@@ -13,6 +22,8 @@ body{
 		position: relative;
 		top: 80px;
 		left: 40%;
+		border-color: black 10px;
+		border-style:solid;
 	}
 	/* DIsplay */
 	.display {
@@ -52,21 +63,22 @@ body{
 		}
 		.button.function{
 			color:white;
-			background-color: #c64f81;
+			background-color: #650080;
 			border-bottom: black 2px solid;
 			border-top: 2px #6f6f6f solid;
 			}
+	
 		
 		.button.number{
 			color: white;
-			background-color: #7091ab;
+			background-color: #C50003 ;
 			border-bottom: black 2px solid;
 			border-top: 2px #6f6f6f solid;
 			}
 			
 			.button.operator {
 				color: white;
-				background-color:#7091ab;
+				background-color: #005585;
 				border-bottom: black 2px solid;
 				border-top: 2px #6f6f6f solid;
 				}

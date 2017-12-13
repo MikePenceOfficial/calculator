@@ -16,7 +16,7 @@ function e() {
 		d(eval(document.getElementById("d").value));
 	}
 	catch(err) {
-		d("error");
+		d("why are you like this");
 		}
 		
 	}
