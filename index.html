@@ -18,8 +18,8 @@
 	<div class="keys">
 	<p>
 			<input type="button" class="button function" value="mrc" onclick="alert(not yet implemented)">
-			<input type="button" class="button function" value="m-" onclick="alert(not yet implemented)">
-			<input type="button" class="button function" value="m+" onclick="alert(not yet implemented)">
+			<input type="button" class="button function" value="(" onclick="v('(')">
+			<input type="button" class="button function" value=")" onclick="v(')')">
 			<input type="button" class="button operator" value="/" onclick="v('/')">	
 			</p>
 			<p>
@@ -46,6 +46,11 @@
 				<input type="button" class="button number" value="." onclick="v('.')">
 				<input type="button" class="button function" value="C" onclick="d('')">
 				<input type="button" class="button operator" value="=" onclick="e('')">
+			</p>
+			<p>
+				<input type="button" class="button number" value="e" onclick="v('2.71828')">
+				<input type="button" class="button number" value="π" onclick="v(Math.PI)">
+				<input type="button" class="button number" value="Phi" onclick="v(1.61803398875)">
 			</p>
 		</div>
 	</div>
