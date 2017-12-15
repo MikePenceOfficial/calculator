@@ -7,16 +7,16 @@ h1 {
 	font-size: 100px;
 	text-align: center;
 	font-stretch:expanded;
-	color: purple
+	color: orange
 	}
 
 body{
-	background-image: url("rapjesus.png");
+	background-image: url("neckbeard.jpg");
 
 	}
 .box {
-		background-color: #e5e7ea;
-		height: 350px;
+		background-image: url('deletos.png');
+		height: 370px;
 		width: 250px;
 		border-radius: 10px;
 		position: relative;
@@ -55,6 +55,7 @@ body{
 		.button {
 			width: 40px;
 			height: 30px;
+			
 			border: none;
 			border-radius: 8px;
 			margin-left: 17px;
@@ -74,7 +75,9 @@ body{
 			background-color: #C50003 ;
 			border-bottom: black 2px solid;
 			border-top: 2px #6f6f6f solid;
+			
 			}
+		
 			
 			.button.operator {
 				color: white;

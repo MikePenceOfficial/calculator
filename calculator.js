@@ -20,3 +20,30 @@ function e() {
 		}
 		
 	}
+	function sqr(){
+		// evaluate the current equation
+		e();
+		// get the value on the display and square root it using Math.sqrt
+		var x = document.getElementById("d").value;
+		x=Math.sqrt(Number(x));
+		// put the result on the display
+		d(x);
+		}
+		function round_(){
+		// evaluate the current equation
+		e();
+		// get the value on the display and square root it using Math.sqrt
+		var x = document.getElementById("d").value;
+		x=Math.round(Number(x));
+		// put the result on the display
+		d(x);
+		}
+		function sqr(a,b){
+		// evaluate the current equation
+		e();
+		// get the value on the display and square root it using Math.sqrt
+		var x = document.getElementById("d").value;
+		x=Math.pow(x, 2);
+		// put the result on the display
+		d(x);
+		}
