@@ -25,7 +25,7 @@ function e() {
 		e();
 		// get the value on the display and square root it using Math.sqrt
 		var x = document.getElementById("d").value;
-		var root=Math.sqrt(Number(x));
+		x=Math.sqrt(Number(x));
 		// put the result on the display
-		document.getElementById(root).value=val;
+		d(x);
 		}
