@@ -1,6 +1,15 @@
 @charset "UTF-8";
 /* CSS Document */
 /* Calculator Box*/
+
+h1 {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: 100px;
+	text-align: center;
+	font-stretch:expanded;
+	color: purple
+	}
+	
 body{
 	background-image: url("rapjesus.png");
 
